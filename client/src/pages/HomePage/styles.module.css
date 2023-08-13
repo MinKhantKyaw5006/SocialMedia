@@ -1,7 +1,18 @@
-.custom-rectangle {
+/* .custom-rectangle {
     width: 343px;
     height: 193px;
     flex-shrink: 0;
+    border-radius: 12px;
+    background: linear-gradient(127deg, #B4C3EB 0%, #93B1FF 81.52%);
+    box-shadow: 0px 4px 40px 0px rgba(59, 105, 222, 0.40);
+  }
+   */
+
+   .custom-rectangle {
+    width: 100%; /* Make the width 100% of the parent container */
+    max-width: 1500px; /* Set a maximum width for responsiveness */
+    height: 193px;
+    margin: 0 auto; /* Center the rectangle horizontally */
     border-radius: 12px;
     background: linear-gradient(127deg, #B4C3EB 0%, #93B1FF 81.52%);
     box-shadow: 0px 4px 40px 0px rgba(59, 105, 222, 0.40);
