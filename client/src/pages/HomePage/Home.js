@@ -1,9 +1,10 @@
 import React from 'react';
+import style from './styles.module.css'
 
 const Home = () => {
   return (
-    <div>
-      Welcome to the Home component!
+    <div className={style['custom-rectangle']}>
+      {/* Content */}
     </div>
   );
 }
